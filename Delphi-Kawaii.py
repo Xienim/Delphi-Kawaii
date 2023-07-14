@@ -25,7 +25,7 @@ def line_init(line):
 
 def Hi_Kawaii():
     ida_kernwin.info(f"Enter the full path of the MAP file")
-    result = ida_kernwin.ask_str("Full PATH to the MAP file", 0, "")
+    result = ida_kernwin.ask_file(0, "*.map", "Please select the IDR Generated MAP File")
     if result is not None:
         init_get = "Address Publics by Value _ RVA+Base"
 
