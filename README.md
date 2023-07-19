@@ -5,7 +5,7 @@ Delphi-Kawaii is a plugin for Ida Pro to perform the parsing of the MAP file (ge
 
 ## Install
 
-Installation is extremely simple, considering that the plugin does not use any other lib that is not from Ida. You just need to download the Delphi-Kawaii.py file and place it inside Ida's plugins folder. If you want to choose a hotkey for the plugin you can edit the file on line 50
+Installation is extremely simple, considering that the plugin does not use any other lib that is not from Ida. You just need to download the Delphi-Kawaii.py file and place it inside Ida's plugins folder. If you want to choose a hotkey for the plugin you can edit the file on line 50.
 ```python
     wanted_hotkey = ""
 ```
